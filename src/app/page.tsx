@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   const myCustomText = "Hello world!";
+  const textTwo = "test";
 
   return (
     <div className={styles.page}>

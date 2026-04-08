@@ -1,0 +1,19 @@
+{
+    // Editor and UI customizations
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    // Files to hide from the explorer
+    "files.exclude": {
+        "**/.next": true,
+        "**/node_modules": true,
+        "**/*.js.map": true
+    },
+    // Language-specific settings
+    "[typescript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    }
+}
